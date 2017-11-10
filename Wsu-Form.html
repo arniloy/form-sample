@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>WSU Green Fee</title>
+        <meta name="description" content="green fee website">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+		<div class="heading">
+			<img scr="logo.png" alt="logo">
+		</div>
+    	<form class="form" action="/path_to_send_data" method="post">
+			<div class="instruction">
+				<p><strong>Instructions:</strong> Please fill in answers to the the following 10 questions. You may copy and paste your text from another document, if you wish. </p>
+			</div>
+			<ul class="questions">
+				<li>
+					<label class="question_label" for="description">Step 1: Project Description.</label>
+					<div class="">
+					<p class="question_description">Provide a summary of your project.</p>
+					<textarea class="question_value description" name="description"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="endorsement">Step 2: Student Input and Endorsement</label>
+					<p class="question_description">How has your project sought student input and endorsement? This could include focus groups, presentation to the SGA Student Sustainability Committee, student org endorsement, etc.</p>
+					<textarea class="question_value endorsement" name="endorsement"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="outcome">Step 3: Anticipated Outcomes/Impact.</label>
+					<p class="question_description">What outcomes do you anticipate? Discuss environmental benefits, impact on the student experience, and the education and outreach potential. If the project has environmental benefits, please quantify those benefits in terms of kilowatt-hours saved, tons of greenhouse gas emissions reduced, gallons of stormwater treated, etc.</p>
+					<textarea class="question_value outcome" name="outcome"></textarea>
+				</li>
+				
+				<li>
+					<label class="question_label" for="benchmarking">Step 4: Project Benchmarking.</label>
+					<p class="question_description">Have similar projects been implemented on other campuses? Have they been successful? How does this project differ?</p>
+					<textarea class="question_value benchmarking" name="benchmarking"></textarea>
+				</li>
+			</ul>
+			<button type=submit>submit!</button>
+		</form>
+	</body>
+</html>
