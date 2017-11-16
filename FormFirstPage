@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset = "utf-8">
+     <meta name="Index" content="green fee website">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	 <meta name="keywords" content="java, textbook" />
+     <link href="css/bootstrap-grid.css" rel="stylesheet" type="text/.css">
+     
+     <script src="js/myscript.js" type="text/javascript"></script>
+
+</head>
+<body>
+       
+        <div class="heading">
+		<img src="logo/WSU_GreenFee.png" alt="logo" width="350" height="350">
+		
+		<header>
+			<center><h1>Green Fee Survey Form</h1></center>
+		</header>
+
+		<main>
+			<section>
+			<form  id = "form" action="Faculty.html" method="POST">
+
+          
+            <fieldset>
+            <fieldset>
+  			<div class="title">
+  				<label id="form"><legend>Project Title:</legend></label> 
+  				<textarea class="project_title" name="title" placeholder=""> </textarea>
+  			</div>
+  			</fieldset>
+  			
+  			<fieldset>
+  			<div class="amount">
+  				<label id="form"><legend>Total Amount Requested:</legend></label> 
+  				<textarea class="total_amount" name="amount" placeholder=""></textarea>
+  			</div>
+  			</fieldset>
+  			<fieldset>
+  			
+  			<div class="nameNtitle">
+  				<label id="form"> <legend>Name and Title of primary contacts:</legend></label> 
+  				<textarea class="name_title" name="namentitle" placeholder=""></textarea>
+  			</div>
+  			</fieldset>
+  			
+  			<fieldset>
+  			<div class="campusaffiliation">
+  				<label id="form"> <legend>Campus Affiliation(Name of the Organization, department and office):</legend></label> 
+  				<textarea class="campus_affliation" name="campus" placeholder=""></textarea>
+  			</div>
+  			</fieldset>
+  			
+  			<fieldset>
+  			<div class="email">
+  				<label id="form"><legend>Email Address:</legend></label> 
+  				<textarea class="email" name="email" placeholder="WarnieWabasha@example.com"></textarea> 
+  			</div>
+  			</fieldset>
+  			
+  			<fieldset>
+  			<div class="phonenumber">
+                <label id="form"><legend> Home or Work Phone Number:</legend></label> 
+  				<textarea  class="home_work" name="phone" placeholder="XXX-XXX-XXXX"></textarea>
+  			</div>
+  			</fieldset>
+  			
+  			
+  			<div id="selection"> 
+  			<ul>
+  			    <p> <strong> Status:</strong></p> 
+  			    <td><label><input type="radio" name="cc" value="">Student </label> <br/> </td>
+                <td><label><input type="radio" name="cc" value="">Faculty </label> <br/> </td>
+                <td><label><input type="radio" name="cc" value="">Staff </label> <br/> </td>
+                   
+  			</ul>
+                </div>
+                </fieldset>
+
+  			<button id="p1" type="submit">Previous<a href="indext.html"></a></button><button id="s1" type="submit">Next<a href="Faculty.html"></a></button> 
+
+			</form>
+			</section>
+		</main>
+
+		<footer>
+		</footer>
+    </div>
+	</body>
